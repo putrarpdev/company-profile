@@ -1,7 +1,9 @@
+import Footer from "../global/footer";
 import CompanyOverviewSection from "./components/companyOverviewSection";
 import HeroSection from "./components/heroSection";
 import ProductServiceSection from "./components/productServiceSection";
-import TestimonialSection from "./components/testimonialSection";
+import TestimonialSection from "../global/testimony/testimonialSection";
+import styles from './home.module.css'
 
 export default function HomeView() {
   return (

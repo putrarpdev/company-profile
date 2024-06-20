@@ -1,0 +1,4525 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "blog",
+        "type": "ContentType",
+        "createdAt": "2024-06-12T12:31:44.496Z",
+        "updatedAt": "2024-06-12T12:38:32.508Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2024-06-12T12:38:32.508Z",
+        "firstPublishedAt": "2024-06-12T12:31:45.024Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/content_types/blog"
+      },
+      "displayField": "title",
+      "name": "Blog",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "summary",
+          "name": "Summary",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "details",
+          "name": "Details",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript",
+                "strikethrough"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, subscript, and strikethrough marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline",
+                "heading-1"
+              ],
+              "message": "Only heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, inline entry, and heading 1 nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "articleImage",
+          "name": "Article Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "createdAt",
+          "name": "Created At",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "cpHeroSection",
+        "type": "ContentType",
+        "createdAt": "2024-06-20T09:57:51.444Z",
+        "updatedAt": "2024-06-20T10:33:03.973Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 13,
+        "publishedAt": "2024-06-20T10:33:03.973Z",
+        "firstPublishedAt": "2024-06-20T09:57:51.907Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 7,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/content_types/cpHeroSection"
+      },
+      "displayField": "header",
+      "name": "CP-Hero Section",
+      "description": "Company Profile Hero Section",
+      "fields": [
+        {
+          "id": "header",
+          "name": "Header",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "cpCompanySection",
+        "type": "ContentType",
+        "createdAt": "2024-06-20T10:03:45.001Z",
+        "updatedAt": "2024-06-20T10:03:45.468Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2024-06-20T10:03:45.468Z",
+        "firstPublishedAt": "2024-06-20T10:03:45.468Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/content_types/cpCompanySection"
+      },
+      "displayField": "title",
+      "name": "CP-Company Section",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "cpServiceSection",
+        "type": "ContentType",
+        "createdAt": "2024-06-20T10:10:37.881Z",
+        "updatedAt": "2024-06-20T10:13:37.656Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2024-06-20T10:13:37.656Z",
+        "firstPublishedAt": "2024-06-20T10:10:38.419Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/content_types/cpServiceSection"
+      },
+      "displayField": "title",
+      "name": "CP-Service Section",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "price",
+          "name": "Price",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "description",
+          "name": "Description",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "features",
+          "name": "Features",
+          "type": "Array",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "items": {
+            "type": "Symbol",
+            "validations": [
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "hq5jzaz3arfb",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2024-06-12T12:31:45.229Z",
+        "createdBy": {
+          "sys": {
+            "id": "2F7UdVvNTttlZpOTlFHjUL",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-12T12:38:33.548Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2F7UdVvNTttlZpOTlFHjUL",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blog",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "summary",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "details",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "articleImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "createdAt",
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "hq5jzaz3arfb",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 14,
+        "createdAt": "2024-06-20T09:57:52.035Z",
+        "createdBy": {
+          "sys": {
+            "id": "2F7UdVvNTttlZpOTlFHjUL",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-20T10:33:04.870Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2F7UdVvNTttlZpOTlFHjUL",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "cpHeroSection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "header",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "hq5jzaz3arfb",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2024-06-20T10:03:45.596Z",
+        "createdBy": {
+          "sys": {
+            "id": "2F7UdVvNTttlZpOTlFHjUL",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-20T10:03:46.456Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2F7UdVvNTttlZpOTlFHjUL",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "cpCompanySection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "hq5jzaz3arfb",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2024-06-20T10:10:38.641Z",
+        "createdBy": {
+          "sys": {
+            "id": "2F7UdVvNTttlZpOTlFHjUL",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-20T10:13:38.738Z",
+        "updatedBy": {
+          "sys": {
+            "id": "2F7UdVvNTttlZpOTlFHjUL",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "cpServiceSection",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "price",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "description",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "features",
+          "widgetId": "listInput",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "2878fJtdl02DIMJg8146Co",
+        "type": "Entry",
+        "createdAt": "2024-06-12T12:48:06.254Z",
+        "updatedAt": "2024-06-12T15:16:44.531Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 32,
+        "publishedAt": "2024-06-12T15:09:57.023Z",
+        "firstPublishedAt": "2024-06-12T12:55:54.414Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 7,
+        "version": 34,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "changed"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blog"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/2878fJtdl02DIMJg8146Co"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Oona Indonesia, Perusahaan Asuransi Umum dengan Pertumbuhan Pesat di Indonesia Meluncurkan Platform Digital MyOONA.id"
+        },
+        "slug": {
+          "en-US": "oona-indonesia-perusahaan-asuransi-umum-dengan-pertumbuhan-pesat-di"
+        },
+        "summary": {
+          "en-US": "Oona Indonesia, Perusahaan Asuransi Umum dengan Pertumbuhan Pesat di Indonesia Meluncurkan Platform Digital MyOONA.id"
+        },
+        "details": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Jakarta, 13 Maret 2024 ",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "- Oona Insurance, perusahaan asuransi umum digital terkemuka di Asia Tenggara yang memiliki kehadiran kuat di Indonesia, hari ini meluncurkan MyOONA.id, platform digital terkini yang sangat dinantikan bagi",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " e-commerce",
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " asuransi di Indonesia. Oona Indonesia juga meluncurkan",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " Asuransi Mobil Mudik;",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " perlindungan eksklusif asuransi mobil jangka pendek yang secara khusus dirancang untuk memfasilitasi kebutuhan mudik, bertepatan dengan periode Lebaran mendatang bagi masyarakat Indonesia.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "MyOONA.id menawarkan tiga kategori produk asuransi yang mudah diakses: ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "asuransi perjalanan, keterlambatan penerbangan,",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " dan ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "kendaraan bermotor",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " (mobil & sepeda motor). Platform digital ini menawarkan fitur-fitur utama yang dirancang untuk memberikan ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "end-user experience",
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " yang menyenangkan:",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "1. Optimalisasi untuk Ponsel: Pelanggan dapat menikmati akses ke platform dengan lancar di semua perangkat, termasuk telepon seluler mereka.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "2. Pengalaman Cepat dan Lancar: Proses pembelian ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "online",
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " telah disederhanakan secara cermat, memastikan pelanggan dapat dengan mudah membeli produk ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "direct to consumer",
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " (D2C) seperti asuransi kendaraan bermotor, perjalanan, dan keterlambatan penerbangan, serta mengajukan klaim dengan mudah.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "3. Aksesibilitas dan Fleksibilitas: Pelanggan memiliki akses ke berbagai opsi pembayaran, termasuk rencana pembayaran fleksibel dengan opsi pembayaran cicilan 0% untuk 3, 6, dan 12 bulan, guna memenuhi beragam preferensi keuangan pelanggan.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "4. Penggunaan Teknologi Inovatif: Proses inspeksi menggunakan pemeriksaan Artificial intelligence (AI) ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "online",
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " untuk meningkatkan deteksi kecacatan pada kendaraan untuk asuransi kendaraan bermotor, menggunakan pengenalan karakter optik (Optical Character Recognition – OCR) untuk mengubah gambar kamera dan Portable Document Format (PDF) menjadi teks untuk menyederhanakan proses KYC, dan AI Generatif untuk meningkatkan fungsionalitas situs web.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Dalam momen peluncuran ini, ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "Abhishek Bhatia, Founder and Group Chief Executive Officer, Oona Insurance",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " menyatakan, \"Ini merupakan momen yang historis bagi kami semua. Kami memulai perjalanan untuk menjadi perusahaan asuransi yang paling transformasional dan memahami pelanggan di pasar Asia Tenggara. Untuk itu, kami menghadirkan teknologi dan produk baru untuk pelanggan kami. Dengan diluncurkannya MyOONA.id, visi kami menjadi kenyataan. Kini pelanggan dapat membeli berbagi produk asuransi secara online hanya dengan beberapa langkah mudah. Platform ini, bersama dengan penawaran produk inovatif seperti Asuransi Mobil Mudik, adalah bukti komitmen kami yang teguh untuk memberikan manfaat yang terbaik di pasar Indonesia.”",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Laporan Jasa Raharja 2023 menekankan urgensi dalam memastikan keselamatan masyarakat Indonesia selama Mudik Lebaran karena terdapat 726 kasus kematian dan 5.894 kecelakaan lalu lintas yang dilaporkan selama 18-28 April 2023. Oona memahami keinginan masyarakat Indonesia untuk kembali ke keluarga mereka di kampung halaman dengan aman, itulah mengapa Asuransi Mobil Mudik diluncurkan melalui kampanye #MudikTenangBarengOONA (#WorryFreeMudikWithOONA). Dengan menawarkan proses pembelian yang mudah di MyOONA.id tanpa perlu inspeksi mobil atau mengunggah dokumen yang rumit, Oona ingin memberikan kenyamanan dengan memanfaatkan kemampuan digital kepada pemilik mobil di perkotaan yang sering berkendara, untuk memastikan perjalanan mereka aman dan bebas dari kekhawatiran.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Vincent C. Soegianto, Chief Executive Officer,",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " Oona Indonesia mengatakan, “Pelanggan tetap menjadi fokus utama dari apa yang kami lakukan selama kami menavigasi lanskap asuransi yang dinamis di Indonesia. Platform MyOONA.id mendemokratisasi akses asuransi bagi masyarakat Indonesia. Kami juga memahami pentingnya menyesuaikan produk kami untuk memenuhi gaya hidup dan kebutuhan masyarakat yang beragam khususnya di Indonesia. Oleh karena itu, kami meluncurkan Asuransi Mobil Mudik, menunjukkan pemahaman mendalam kami tentang pasar Indonesia. Produk ini dirancang khusus untuk masyarakat Indonesia sehingga memungkinkan mereka untuk fokus pada hal penting: berkumpul dengan keluarga dalam kondisi aman selama Lebaran.”",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Untuk memastikan keterjangkauan dan aksesibilitas bagi semua masyarakat Indonesia, premi Asuransi Mobil Mudik dijual dengan harga terjangkau sebesar Rp 49.000 untuk perlindungan selama 10 hari yang tersedia pada periode 12 Maret hingga 30 April 2024. Produk asuransi ini memberikan perlindungan yang mencakup pertanggungan Total Loss Only, perlindungan kecelakaan diri bagi pengemudi dan penumpang, perlindungan tanggung jawab hukum pihak ketiga, serta roadside assistance dan Pusat Klaim 24/7, sehingga memberikan ketenangan selama perjalanan.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Oona Indonesia memiliki Risk Based Capital/rasio solvabilitas (RBC) yang kokoh sebesar 696,48% dan total ekuitas melebihi Rp 1,53 triliun per 31 Desember 2023 (unaudited). Data tersebut merupakan bukti kekuatan finansial Oona Indonesia dan kepatuhan yang ketat terhadap standar peraturan. Hal ini memastikan kredibilitas dan komitmen kami untuk selalu memberikan pelayanan prima di Indonesia.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "heading-2",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Tentang Oona Insurance",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Berkantor pusat di Singapura, Oona Insurance adalah platform asuransi umum digital terkemuka dan didukung oleh Warburg Pincus. Didirikan pada tahun 2022, Oona Insurance bertujuan untuk menjadi perusahaan asuransi umum pilihan bagi mitra dan pelanggan melalui strategi beli dan bangun, memanfaatkan pilar layanan pelanggan yang unggul, teknologi canggih, dan merek yang sudah mapan di Asia Tenggara. Oona Insurance saat ini beroperasi di dua pasar di kawasan ini: Indonesia dan Filipina.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Di Indonesia, Oona beroperasi melalui entitas asuransi berlisensinya, PT Asuransi Bina Dana Arta, Tbk. Oona Indonesia, merek terpadu baru dari entitas-entitas ini, menawarkan produk dan layanan berkualitas sejak awal tahun 2023, menjadi landasan yang kokoh bagi ekspansi Oona Insurance di pasar asuransi yang berkembang pesat di Asia Tenggara.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Untuk informasi lebih lanjut tentang Oona Insurance, silakan kunjungi:",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "data": {
+                      "uri": "http://www.oona-insurance.com/"
+                    },
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "www.oona-insurance.com",
+                        "marks": [
+                          {
+                            "type": "underline"
+                          }
+                        ],
+                        "data": {
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "articleImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1EThotHXfnOvkjB8LLehVW"
+            }
+          }
+        },
+        "author": {
+          "en-US": "Putra Rizki Pradana"
+        },
+        "createdAt": {
+          "en-US": "2024-06-12T00:00+07:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "6g7mLR68NOOP19p9xbWHOy",
+        "type": "Entry",
+        "createdAt": "2024-06-12T15:16:53.330Z",
+        "updatedAt": "2024-06-12T15:21:43.389Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2024-06-12T15:21:43.389Z",
+        "firstPublishedAt": "2024-06-12T15:18:46.766Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blog"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/6g7mLR68NOOP19p9xbWHOy"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Oona Insurance Menunjuk Veteran Industri Finansial, Vincent C. Soegianto Sebagai CEO Oona Indonesia"
+        },
+        "slug": {
+          "en-US": "oona-insurance-menunjuk-veteran-industri-finansial-vincent-c-soegianto"
+        },
+        "summary": {
+          "en-US": "Seorang pemimpin yang cakap di industri jasa keuangan dengan pengalaman internasional di berbagai wilayah, kemampuan digital yang kuat, dan ahli dalam ekosistem teknologi Indonesia."
+        },
+        "details": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Jakarta, 9 Januari 2024",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " - Oona, platform asuransi umum digital terkemuka di Asia Tenggara dan Indonesia, mengumumkan penunjukan Vincent C. Soegianto, seorang veteran industri finansial, sebagai Chief Executive Officer (CEO) untuk operasinya di Indonesia.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "CEO yang baru saja ditunjuk ini memiliki pengalaman selama 29 tahun di industri jasa keuangan di berbagai wilayah, yaitu Asia Pasifik (Indonesia, Malaysia, Hong Kong) dan Timur Tengah (Dubai, UAE), di mana ia bertanggungjawab untuk pasar regional di kawasan tersebut. Vincent juga memiliki keahlian dalam transaksi perbankan yaitu manajemen keuangan dan perdagangan (memiliki sertifikasi di kedua bidang tersebut), serta didukung oleh pengalaman digital yang kuat. Sebelumnya, ia memimpin pengembangan ekosistem digital untuk ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "Merchant Business",
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " pada Bank Jago Tbk di Indonesia.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Menyambut Vincent bergabung dengan tim, ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "Abhishek Bhatia, Presiden Komisaris Oona",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " Insurance Indonesia, mengatakan, \"Saya sangat senang menyambut Vincent, seorang veteran industri finansial, ke tim kepemimpinan kami di Indonesia. Dengan pengalaman dan keahliannya, kami berharap dapat meraih pencapaian baru di tahun 2024 ini. Tahun lalu merupakan tahun yang luar biasa bagi kami di Indonesia, berkat tim dan para pemimpin kami yang berdedikasi. Kami yakin bahwa di bawah kepemimpinan Vincent, dan dengan fokus kami untuk mempercepat pertumbuhan dan inovasi bisnis di seluruh Indonesia, kami dapat terus membantu setiap orang Indonesia menjalani hidup tanpa batas.\"",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Vincent C. Soegianto, CEO yang baru ditunjuk",
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": ", berkomentar, \"Saya sangat senang bergabung dengan Oona Indonesia dan memimpin tim yang dinamis untuk terus semakin bertumbuh. Dalam waktu singkat, Oona telah mengguncang industri dengan pengenalan produk asuransi perjalanan inovatifnya, Oona Flight Delay Insurance1, yang ditargetkan untuk pasar wisatawan Indonesia yang terus bertumbuh. Saya juga percaya bahwa ini adalah saat penting untuk terus melakukan digitalisasi dan inovasi di industri asuransi Indonesia, dan saya sangat senang menjadi bagian dari perjalanan ini bersama Oona.\"",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Selama bertahun-tahun, Vincent telah memegang peran kunci di industri jasa keuangan di berbagai negara, dengan fokus untuk mengembangkan produk-produk keuangan agar dapat menjangkau pasar yang lebih luas. Saat ini, Vincent sedang menjalani Uji Kepatutan & Kelayakan ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "(Fit & Proper Test)",
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": " dari OJK. Pengangkatan beliau sebagai CEO Oona Indonesia akan melalui proses persetujuan Rapat Umum Pemegang Saham Oona Indonesia, yang akan dilakukan setelah pengumuman hasil kelulusan FPT.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "heading-2",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Tentang Oona Insurance",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Berkantor pusat di Singapura, Oona, dimiliki sepenuhnya oleh Oona Holdings Pte. Ltd. dan didukung oleh Warburg Pincus, adalah platform asuransi umum digital terkemuka. Didirikan pada tahun 2022, Oona bertujuan untuk menjadi perusahaan asuransi umum pilihan bagi mitra dan pelanggan melalui strategi buy-and-build, memanfaatkan pilar layanan pelanggan yang unggul, teknologi canggih, dan merek yang sudah mapan di Asia Tenggara. Oona saat ini beroperasi di dua pasar di kawasan ini: Indonesia dan Filipina.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Di Indonesia, Oona beroperasi melalui entitas asuransinya yang berizin dan diawasi oleh OJK, PT Asuransi Bina Dana Arta, Tbk. Oona, merek terpadu baru dari entitas-entitas ini, menawarkan produk dan layanan berkualitas sejak awal tahun 2023, menjadi landasan yang kokoh bagi ekspansi Oona di pasar asuransi yang berkembang pesat di Asia Tenggara.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Untuk informasi lebih lanjut tentang Oona Insurance, silakan kunjungi:",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "hyperlink",
+                    "data": {
+                      "uri": "http://www.oona-insurance.com/"
+                    },
+                    "content": [
+                      {
+                        "nodeType": "text",
+                        "value": "www.oona-insurance.com",
+                        "marks": [
+                          {
+                            "type": "underline"
+                          }
+                        ],
+                        "data": {
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "articleImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "oJAN0TPOH4y4MEy0kS8RK"
+            }
+          }
+        },
+        "author": {
+          "en-US": "Putra Rizki Pradana"
+        },
+        "createdAt": {
+          "en-US": "2024-06-12T00:00+07:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "7jJxYXzBD3dpbwIXzijN5a",
+        "type": "Entry",
+        "createdAt": "2024-06-13T15:08:18.690Z",
+        "updatedAt": "2024-06-13T15:09:03.381Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-06-13T15:09:03.381Z",
+        "firstPublishedAt": "2024-06-13T15:09:03.381Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blog"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/7jJxYXzBD3dpbwIXzijN5a"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Oona Indonesia, Perusahaan Asuransi Umum dengan Pertumbuhan Pesat di Indonesia Meluncurkan Platform Digital MyOONA.id (1)"
+        },
+        "slug": {
+          "en-US": "oona-indonesia-perusahaan-asuransi-umum-dengan-pertumbuhan-pesat-di-1"
+        },
+        "summary": {
+          "en-US": "Oona Indonesia, Perusahaan Asuransi Umum dengan Pertumbuhan Pesat di Indonesia Meluncurkan Platform Digital MyOONA.id"
+        },
+        "details": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Jakarta, 13 Maret 2024 ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "- Oona Insurance, perusahaan asuransi umum digital terkemuka di Asia Tenggara yang memiliki kehadiran kuat di Indonesia, hari ini meluncurkan MyOONA.id, platform digital terkini yang sangat dinantikan bagi",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": " e-commerce",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " asuransi di Indonesia. Oona Indonesia juga meluncurkan",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": " Asuransi Mobil Mudik;",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " perlindungan eksklusif asuransi mobil jangka pendek yang secara khusus dirancang untuk memfasilitasi kebutuhan mudik, bertepatan dengan periode Lebaran mendatang bagi masyarakat Indonesia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "MyOONA.id menawarkan tiga kategori produk asuransi yang mudah diakses: ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "asuransi perjalanan, keterlambatan penerbangan,",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " dan ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "kendaraan bermotor",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " (mobil & sepeda motor). Platform digital ini menawarkan fitur-fitur utama yang dirancang untuk memberikan ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "end-user experience",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " yang menyenangkan:",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "1. Optimalisasi untuk Ponsel: Pelanggan dapat menikmati akses ke platform dengan lancar di semua perangkat, termasuk telepon seluler mereka.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "2. Pengalaman Cepat dan Lancar: Proses pembelian ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "online",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " telah disederhanakan secara cermat, memastikan pelanggan dapat dengan mudah membeli produk ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "direct to consumer",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " (D2C) seperti asuransi kendaraan bermotor, perjalanan, dan keterlambatan penerbangan, serta mengajukan klaim dengan mudah.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "3. Aksesibilitas dan Fleksibilitas: Pelanggan memiliki akses ke berbagai opsi pembayaran, termasuk rencana pembayaran fleksibel dengan opsi pembayaran cicilan 0% untuk 3, 6, dan 12 bulan, guna memenuhi beragam preferensi keuangan pelanggan.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "4. Penggunaan Teknologi Inovatif: Proses inspeksi menggunakan pemeriksaan Artificial intelligence (AI) ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "online",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " untuk meningkatkan deteksi kecacatan pada kendaraan untuk asuransi kendaraan bermotor, menggunakan pengenalan karakter optik (Optical Character Recognition – OCR) untuk mengubah gambar kamera dan Portable Document Format (PDF) menjadi teks untuk menyederhanakan proses KYC, dan AI Generatif untuk meningkatkan fungsionalitas situs web.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Dalam momen peluncuran ini, ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Abhishek Bhatia, Founder and Group Chief Executive Officer, Oona Insurance",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " menyatakan, \"Ini merupakan momen yang historis bagi kami semua. Kami memulai perjalanan untuk menjadi perusahaan asuransi yang paling transformasional dan memahami pelanggan di pasar Asia Tenggara. Untuk itu, kami menghadirkan teknologi dan produk baru untuk pelanggan kami. Dengan diluncurkannya MyOONA.id, visi kami menjadi kenyataan. Kini pelanggan dapat membeli berbagi produk asuransi secara online hanya dengan beberapa langkah mudah. Platform ini, bersama dengan penawaran produk inovatif seperti Asuransi Mobil Mudik, adalah bukti komitmen kami yang teguh untuk memberikan manfaat yang terbaik di pasar Indonesia.”",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Laporan Jasa Raharja 2023 menekankan urgensi dalam memastikan keselamatan masyarakat Indonesia selama Mudik Lebaran karena terdapat 726 kasus kematian dan 5.894 kecelakaan lalu lintas yang dilaporkan selama 18-28 April 2023. Oona memahami keinginan masyarakat Indonesia untuk kembali ke keluarga mereka di kampung halaman dengan aman, itulah mengapa Asuransi Mobil Mudik diluncurkan melalui kampanye #MudikTenangBarengOONA (#WorryFreeMudikWithOONA). Dengan menawarkan proses pembelian yang mudah di MyOONA.id tanpa perlu inspeksi mobil atau mengunggah dokumen yang rumit, Oona ingin memberikan kenyamanan dengan memanfaatkan kemampuan digital kepada pemilik mobil di perkotaan yang sering berkendara, untuk memastikan perjalanan mereka aman dan bebas dari kekhawatiran.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Vincent C. Soegianto, Chief Executive Officer,",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " Oona Indonesia mengatakan, “Pelanggan tetap menjadi fokus utama dari apa yang kami lakukan selama kami menavigasi lanskap asuransi yang dinamis di Indonesia. Platform MyOONA.id mendemokratisasi akses asuransi bagi masyarakat Indonesia. Kami juga memahami pentingnya menyesuaikan produk kami untuk memenuhi gaya hidup dan kebutuhan masyarakat yang beragam khususnya di Indonesia. Oleh karena itu, kami meluncurkan Asuransi Mobil Mudik, menunjukkan pemahaman mendalam kami tentang pasar Indonesia. Produk ini dirancang khusus untuk masyarakat Indonesia sehingga memungkinkan mereka untuk fokus pada hal penting: berkumpul dengan keluarga dalam kondisi aman selama Lebaran.”",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Untuk memastikan keterjangkauan dan aksesibilitas bagi semua masyarakat Indonesia, premi Asuransi Mobil Mudik dijual dengan harga terjangkau sebesar Rp 49.000 untuk perlindungan selama 10 hari yang tersedia pada periode 12 Maret hingga 30 April 2024. Produk asuransi ini memberikan perlindungan yang mencakup pertanggungan Total Loss Only, perlindungan kecelakaan diri bagi pengemudi dan penumpang, perlindungan tanggung jawab hukum pihak ketiga, serta roadside assistance dan Pusat Klaim 24/7, sehingga memberikan ketenangan selama perjalanan.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Oona Indonesia memiliki Risk Based Capital/rasio solvabilitas (RBC) yang kokoh sebesar 696,48% dan total ekuitas melebihi Rp 1,53 triliun per 31 Desember 2023 (unaudited). Data tersebut merupakan bukti kekuatan finansial Oona Indonesia dan kepatuhan yang ketat terhadap standar peraturan. Hal ini memastikan kredibilitas dan komitmen kami untuk selalu memberikan pelayanan prima di Indonesia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tentang Oona Insurance",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Berkantor pusat di Singapura, Oona Insurance adalah platform asuransi umum digital terkemuka dan didukung oleh Warburg Pincus. Didirikan pada tahun 2022, Oona Insurance bertujuan untuk menjadi perusahaan asuransi umum pilihan bagi mitra dan pelanggan melalui strategi beli dan bangun, memanfaatkan pilar layanan pelanggan yang unggul, teknologi canggih, dan merek yang sudah mapan di Asia Tenggara. Oona Insurance saat ini beroperasi di dua pasar di kawasan ini: Indonesia dan Filipina.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Di Indonesia, Oona beroperasi melalui entitas asuransi berlisensinya, PT Asuransi Bina Dana Arta, Tbk. Oona Indonesia, merek terpadu baru dari entitas-entitas ini, menawarkan produk dan layanan berkualitas sejak awal tahun 2023, menjadi landasan yang kokoh bagi ekspansi Oona Insurance di pasar asuransi yang berkembang pesat di Asia Tenggara.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Untuk informasi lebih lanjut tentang Oona Insurance, silakan kunjungi:",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "http://www.oona-insurance.com/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                          {
+                            "type": "underline"
+                          }
+                        ],
+                        "value": "www.oona-insurance.com",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "articleImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1EThotHXfnOvkjB8LLehVW"
+            }
+          }
+        },
+        "author": {
+          "en-US": "Putra Rizki Pradana"
+        },
+        "createdAt": {
+          "en-US": "2024-06-12T00:00+07:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "1EPeWcAdI5g9sfY20ciyFP",
+        "type": "Entry",
+        "createdAt": "2024-06-13T15:08:18.738Z",
+        "updatedAt": "2024-06-13T15:08:52.540Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-06-13T15:08:52.540Z",
+        "firstPublishedAt": "2024-06-13T15:08:52.540Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blog"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/1EPeWcAdI5g9sfY20ciyFP"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Oona Insurance Menunjuk Veteran Industri Finansial, Vincent C. Soegianto Sebagai CEO Oona Indonesia (1)"
+        },
+        "slug": {
+          "en-US": "oona-insurance-menunjuk-veteran-industri-finansial-vincent-c-soegianto-1"
+        },
+        "summary": {
+          "en-US": "Seorang pemimpin yang cakap di industri jasa keuangan dengan pengalaman internasional di berbagai wilayah, kemampuan digital yang kuat, dan ahli dalam ekosistem teknologi Indonesia."
+        },
+        "details": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Jakarta, 9 Januari 2024",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " - Oona, platform asuransi umum digital terkemuka di Asia Tenggara dan Indonesia, mengumumkan penunjukan Vincent C. Soegianto, seorang veteran industri finansial, sebagai Chief Executive Officer (CEO) untuk operasinya di Indonesia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "CEO yang baru saja ditunjuk ini memiliki pengalaman selama 29 tahun di industri jasa keuangan di berbagai wilayah, yaitu Asia Pasifik (Indonesia, Malaysia, Hong Kong) dan Timur Tengah (Dubai, UAE), di mana ia bertanggungjawab untuk pasar regional di kawasan tersebut. Vincent juga memiliki keahlian dalam transaksi perbankan yaitu manajemen keuangan dan perdagangan (memiliki sertifikasi di kedua bidang tersebut), serta didukung oleh pengalaman digital yang kuat. Sebelumnya, ia memimpin pengembangan ekosistem digital untuk ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "Merchant Business",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " pada Bank Jago Tbk di Indonesia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Menyambut Vincent bergabung dengan tim, ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Abhishek Bhatia, Presiden Komisaris Oona",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " Insurance Indonesia, mengatakan, \"Saya sangat senang menyambut Vincent, seorang veteran industri finansial, ke tim kepemimpinan kami di Indonesia. Dengan pengalaman dan keahliannya, kami berharap dapat meraih pencapaian baru di tahun 2024 ini. Tahun lalu merupakan tahun yang luar biasa bagi kami di Indonesia, berkat tim dan para pemimpin kami yang berdedikasi. Kami yakin bahwa di bawah kepemimpinan Vincent, dan dengan fokus kami untuk mempercepat pertumbuhan dan inovasi bisnis di seluruh Indonesia, kami dapat terus membantu setiap orang Indonesia menjalani hidup tanpa batas.\"",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Vincent C. Soegianto, CEO yang baru ditunjuk",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", berkomentar, \"Saya sangat senang bergabung dengan Oona Indonesia dan memimpin tim yang dinamis untuk terus semakin bertumbuh. Dalam waktu singkat, Oona telah mengguncang industri dengan pengenalan produk asuransi perjalanan inovatifnya, Oona Flight Delay Insurance1, yang ditargetkan untuk pasar wisatawan Indonesia yang terus bertumbuh. Saya juga percaya bahwa ini adalah saat penting untuk terus melakukan digitalisasi dan inovasi di industri asuransi Indonesia, dan saya sangat senang menjadi bagian dari perjalanan ini bersama Oona.\"",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Selama bertahun-tahun, Vincent telah memegang peran kunci di industri jasa keuangan di berbagai negara, dengan fokus untuk mengembangkan produk-produk keuangan agar dapat menjangkau pasar yang lebih luas. Saat ini, Vincent sedang menjalani Uji Kepatutan & Kelayakan ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "(Fit & Proper Test)",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " dari OJK. Pengangkatan beliau sebagai CEO Oona Indonesia akan melalui proses persetujuan Rapat Umum Pemegang Saham Oona Indonesia, yang akan dilakukan setelah pengumuman hasil kelulusan FPT.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tentang Oona Insurance",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Berkantor pusat di Singapura, Oona, dimiliki sepenuhnya oleh Oona Holdings Pte. Ltd. dan didukung oleh Warburg Pincus, adalah platform asuransi umum digital terkemuka. Didirikan pada tahun 2022, Oona bertujuan untuk menjadi perusahaan asuransi umum pilihan bagi mitra dan pelanggan melalui strategi buy-and-build, memanfaatkan pilar layanan pelanggan yang unggul, teknologi canggih, dan merek yang sudah mapan di Asia Tenggara. Oona saat ini beroperasi di dua pasar di kawasan ini: Indonesia dan Filipina.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Di Indonesia, Oona beroperasi melalui entitas asuransinya yang berizin dan diawasi oleh OJK, PT Asuransi Bina Dana Arta, Tbk. Oona, merek terpadu baru dari entitas-entitas ini, menawarkan produk dan layanan berkualitas sejak awal tahun 2023, menjadi landasan yang kokoh bagi ekspansi Oona di pasar asuransi yang berkembang pesat di Asia Tenggara.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Untuk informasi lebih lanjut tentang Oona Insurance, silakan kunjungi:",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "http://www.oona-insurance.com/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                          {
+                            "type": "underline"
+                          }
+                        ],
+                        "value": "www.oona-insurance.com",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "articleImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "oJAN0TPOH4y4MEy0kS8RK"
+            }
+          }
+        },
+        "author": {
+          "en-US": "Putra Rizki Pradana"
+        },
+        "createdAt": {
+          "en-US": "2024-06-12T00:00+07:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "dHzSUlkfLPmCJSTKstnqe",
+        "type": "Entry",
+        "createdAt": "2024-06-13T15:09:35.522Z",
+        "updatedAt": "2024-06-13T15:09:53.323Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-06-13T15:09:53.323Z",
+        "firstPublishedAt": "2024-06-13T15:09:53.323Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blog"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/dHzSUlkfLPmCJSTKstnqe"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Oona Insurance Menunjuk Veteran Industri Finansial, Vincent C. Soegianto Sebagai CEO Oona Indonesia (2)"
+        },
+        "slug": {
+          "en-US": "oona-insurance-menunjuk-veteran-industri-finansial-vincent-c-soegianto-2"
+        },
+        "summary": {
+          "en-US": "Seorang pemimpin yang cakap di industri jasa keuangan dengan pengalaman internasional di berbagai wilayah, kemampuan digital yang kuat, dan ahli dalam ekosistem teknologi Indonesia."
+        },
+        "details": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Jakarta, 9 Januari 2024",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " - Oona, platform asuransi umum digital terkemuka di Asia Tenggara dan Indonesia, mengumumkan penunjukan Vincent C. Soegianto, seorang veteran industri finansial, sebagai Chief Executive Officer (CEO) untuk operasinya di Indonesia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "CEO yang baru saja ditunjuk ini memiliki pengalaman selama 29 tahun di industri jasa keuangan di berbagai wilayah, yaitu Asia Pasifik (Indonesia, Malaysia, Hong Kong) dan Timur Tengah (Dubai, UAE), di mana ia bertanggungjawab untuk pasar regional di kawasan tersebut. Vincent juga memiliki keahlian dalam transaksi perbankan yaitu manajemen keuangan dan perdagangan (memiliki sertifikasi di kedua bidang tersebut), serta didukung oleh pengalaman digital yang kuat. Sebelumnya, ia memimpin pengembangan ekosistem digital untuk ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "Merchant Business",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " pada Bank Jago Tbk di Indonesia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Menyambut Vincent bergabung dengan tim, ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Abhishek Bhatia, Presiden Komisaris Oona",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " Insurance Indonesia, mengatakan, \"Saya sangat senang menyambut Vincent, seorang veteran industri finansial, ke tim kepemimpinan kami di Indonesia. Dengan pengalaman dan keahliannya, kami berharap dapat meraih pencapaian baru di tahun 2024 ini. Tahun lalu merupakan tahun yang luar biasa bagi kami di Indonesia, berkat tim dan para pemimpin kami yang berdedikasi. Kami yakin bahwa di bawah kepemimpinan Vincent, dan dengan fokus kami untuk mempercepat pertumbuhan dan inovasi bisnis di seluruh Indonesia, kami dapat terus membantu setiap orang Indonesia menjalani hidup tanpa batas.\"",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Vincent C. Soegianto, CEO yang baru ditunjuk",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": ", berkomentar, \"Saya sangat senang bergabung dengan Oona Indonesia dan memimpin tim yang dinamis untuk terus semakin bertumbuh. Dalam waktu singkat, Oona telah mengguncang industri dengan pengenalan produk asuransi perjalanan inovatifnya, Oona Flight Delay Insurance1, yang ditargetkan untuk pasar wisatawan Indonesia yang terus bertumbuh. Saya juga percaya bahwa ini adalah saat penting untuk terus melakukan digitalisasi dan inovasi di industri asuransi Indonesia, dan saya sangat senang menjadi bagian dari perjalanan ini bersama Oona.\"",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Selama bertahun-tahun, Vincent telah memegang peran kunci di industri jasa keuangan di berbagai negara, dengan fokus untuk mengembangkan produk-produk keuangan agar dapat menjangkau pasar yang lebih luas. Saat ini, Vincent sedang menjalani Uji Kepatutan & Kelayakan ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "(Fit & Proper Test)",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " dari OJK. Pengangkatan beliau sebagai CEO Oona Indonesia akan melalui proses persetujuan Rapat Umum Pemegang Saham Oona Indonesia, yang akan dilakukan setelah pengumuman hasil kelulusan FPT.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tentang Oona Insurance",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Berkantor pusat di Singapura, Oona, dimiliki sepenuhnya oleh Oona Holdings Pte. Ltd. dan didukung oleh Warburg Pincus, adalah platform asuransi umum digital terkemuka. Didirikan pada tahun 2022, Oona bertujuan untuk menjadi perusahaan asuransi umum pilihan bagi mitra dan pelanggan melalui strategi buy-and-build, memanfaatkan pilar layanan pelanggan yang unggul, teknologi canggih, dan merek yang sudah mapan di Asia Tenggara. Oona saat ini beroperasi di dua pasar di kawasan ini: Indonesia dan Filipina.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Di Indonesia, Oona beroperasi melalui entitas asuransinya yang berizin dan diawasi oleh OJK, PT Asuransi Bina Dana Arta, Tbk. Oona, merek terpadu baru dari entitas-entitas ini, menawarkan produk dan layanan berkualitas sejak awal tahun 2023, menjadi landasan yang kokoh bagi ekspansi Oona di pasar asuransi yang berkembang pesat di Asia Tenggara.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Untuk informasi lebih lanjut tentang Oona Insurance, silakan kunjungi:",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "http://www.oona-insurance.com/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                          {
+                            "type": "underline"
+                          }
+                        ],
+                        "value": "www.oona-insurance.com",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "articleImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "oJAN0TPOH4y4MEy0kS8RK"
+            }
+          }
+        },
+        "author": {
+          "en-US": "Putra Rizki Pradana"
+        },
+        "createdAt": {
+          "en-US": "2024-06-12T00:00+07:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "4uoPdsDk3Xy7lXuFvyINjs",
+        "type": "Entry",
+        "createdAt": "2024-06-13T15:09:35.529Z",
+        "updatedAt": "2024-06-13T15:09:49.806Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-06-13T15:09:49.806Z",
+        "firstPublishedAt": "2024-06-13T15:09:49.806Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blog"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/4uoPdsDk3Xy7lXuFvyINjs"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Oona Indonesia, Perusahaan Asuransi Umum dengan Pertumbuhan Pesat di Indonesia Meluncurkan Platform Digital MyOONA.id (2)"
+        },
+        "slug": {
+          "en-US": "oona-indonesia-perusahaan-asuransi-umum-dengan-pertumbuhan-pesat-di-2"
+        },
+        "summary": {
+          "en-US": "Oona Indonesia, Perusahaan Asuransi Umum dengan Pertumbuhan Pesat di Indonesia Meluncurkan Platform Digital MyOONA.id"
+        },
+        "details": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Jakarta, 13 Maret 2024 ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "- Oona Insurance, perusahaan asuransi umum digital terkemuka di Asia Tenggara yang memiliki kehadiran kuat di Indonesia, hari ini meluncurkan MyOONA.id, platform digital terkini yang sangat dinantikan bagi",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": " e-commerce",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " asuransi di Indonesia. Oona Indonesia juga meluncurkan",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": " Asuransi Mobil Mudik;",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " perlindungan eksklusif asuransi mobil jangka pendek yang secara khusus dirancang untuk memfasilitasi kebutuhan mudik, bertepatan dengan periode Lebaran mendatang bagi masyarakat Indonesia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "MyOONA.id menawarkan tiga kategori produk asuransi yang mudah diakses: ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "asuransi perjalanan, keterlambatan penerbangan,",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " dan ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "kendaraan bermotor",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " (mobil & sepeda motor). Platform digital ini menawarkan fitur-fitur utama yang dirancang untuk memberikan ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "end-user experience",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " yang menyenangkan:",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "1. Optimalisasi untuk Ponsel: Pelanggan dapat menikmati akses ke platform dengan lancar di semua perangkat, termasuk telepon seluler mereka.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "2. Pengalaman Cepat dan Lancar: Proses pembelian ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "online",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " telah disederhanakan secara cermat, memastikan pelanggan dapat dengan mudah membeli produk ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "direct to consumer",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " (D2C) seperti asuransi kendaraan bermotor, perjalanan, dan keterlambatan penerbangan, serta mengajukan klaim dengan mudah.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "3. Aksesibilitas dan Fleksibilitas: Pelanggan memiliki akses ke berbagai opsi pembayaran, termasuk rencana pembayaran fleksibel dengan opsi pembayaran cicilan 0% untuk 3, 6, dan 12 bulan, guna memenuhi beragam preferensi keuangan pelanggan.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "4. Penggunaan Teknologi Inovatif: Proses inspeksi menggunakan pemeriksaan Artificial intelligence (AI) ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "italic"
+                      }
+                    ],
+                    "value": "online",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " untuk meningkatkan deteksi kecacatan pada kendaraan untuk asuransi kendaraan bermotor, menggunakan pengenalan karakter optik (Optical Character Recognition – OCR) untuk mengubah gambar kamera dan Portable Document Format (PDF) menjadi teks untuk menyederhanakan proses KYC, dan AI Generatif untuk meningkatkan fungsionalitas situs web.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Dalam momen peluncuran ini, ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Abhishek Bhatia, Founder and Group Chief Executive Officer, Oona Insurance",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " menyatakan, \"Ini merupakan momen yang historis bagi kami semua. Kami memulai perjalanan untuk menjadi perusahaan asuransi yang paling transformasional dan memahami pelanggan di pasar Asia Tenggara. Untuk itu, kami menghadirkan teknologi dan produk baru untuk pelanggan kami. Dengan diluncurkannya MyOONA.id, visi kami menjadi kenyataan. Kini pelanggan dapat membeli berbagi produk asuransi secara online hanya dengan beberapa langkah mudah. Platform ini, bersama dengan penawaran produk inovatif seperti Asuransi Mobil Mudik, adalah bukti komitmen kami yang teguh untuk memberikan manfaat yang terbaik di pasar Indonesia.”",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Laporan Jasa Raharja 2023 menekankan urgensi dalam memastikan keselamatan masyarakat Indonesia selama Mudik Lebaran karena terdapat 726 kasus kematian dan 5.894 kecelakaan lalu lintas yang dilaporkan selama 18-28 April 2023. Oona memahami keinginan masyarakat Indonesia untuk kembali ke keluarga mereka di kampung halaman dengan aman, itulah mengapa Asuransi Mobil Mudik diluncurkan melalui kampanye #MudikTenangBarengOONA (#WorryFreeMudikWithOONA). Dengan menawarkan proses pembelian yang mudah di MyOONA.id tanpa perlu inspeksi mobil atau mengunggah dokumen yang rumit, Oona ingin memberikan kenyamanan dengan memanfaatkan kemampuan digital kepada pemilik mobil di perkotaan yang sering berkendara, untuk memastikan perjalanan mereka aman dan bebas dari kekhawatiran.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Vincent C. Soegianto, Chief Executive Officer,",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " Oona Indonesia mengatakan, “Pelanggan tetap menjadi fokus utama dari apa yang kami lakukan selama kami menavigasi lanskap asuransi yang dinamis di Indonesia. Platform MyOONA.id mendemokratisasi akses asuransi bagi masyarakat Indonesia. Kami juga memahami pentingnya menyesuaikan produk kami untuk memenuhi gaya hidup dan kebutuhan masyarakat yang beragam khususnya di Indonesia. Oleh karena itu, kami meluncurkan Asuransi Mobil Mudik, menunjukkan pemahaman mendalam kami tentang pasar Indonesia. Produk ini dirancang khusus untuk masyarakat Indonesia sehingga memungkinkan mereka untuk fokus pada hal penting: berkumpul dengan keluarga dalam kondisi aman selama Lebaran.”",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Untuk memastikan keterjangkauan dan aksesibilitas bagi semua masyarakat Indonesia, premi Asuransi Mobil Mudik dijual dengan harga terjangkau sebesar Rp 49.000 untuk perlindungan selama 10 hari yang tersedia pada periode 12 Maret hingga 30 April 2024. Produk asuransi ini memberikan perlindungan yang mencakup pertanggungan Total Loss Only, perlindungan kecelakaan diri bagi pengemudi dan penumpang, perlindungan tanggung jawab hukum pihak ketiga, serta roadside assistance dan Pusat Klaim 24/7, sehingga memberikan ketenangan selama perjalanan.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Oona Indonesia memiliki Risk Based Capital/rasio solvabilitas (RBC) yang kokoh sebesar 696,48% dan total ekuitas melebihi Rp 1,53 triliun per 31 Desember 2023 (unaudited). Data tersebut merupakan bukti kekuatan finansial Oona Indonesia dan kepatuhan yang ketat terhadap standar peraturan. Hal ini memastikan kredibilitas dan komitmen kami untuk selalu memberikan pelayanan prima di Indonesia.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Tentang Oona Insurance",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Berkantor pusat di Singapura, Oona Insurance adalah platform asuransi umum digital terkemuka dan didukung oleh Warburg Pincus. Didirikan pada tahun 2022, Oona Insurance bertujuan untuk menjadi perusahaan asuransi umum pilihan bagi mitra dan pelanggan melalui strategi beli dan bangun, memanfaatkan pilar layanan pelanggan yang unggul, teknologi canggih, dan merek yang sudah mapan di Asia Tenggara. Oona Insurance saat ini beroperasi di dua pasar di kawasan ini: Indonesia dan Filipina.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Di Indonesia, Oona beroperasi melalui entitas asuransi berlisensinya, PT Asuransi Bina Dana Arta, Tbk. Oona Indonesia, merek terpadu baru dari entitas-entitas ini, menawarkan produk dan layanan berkualitas sejak awal tahun 2023, menjadi landasan yang kokoh bagi ekspansi Oona Insurance di pasar asuransi yang berkembang pesat di Asia Tenggara.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Untuk informasi lebih lanjut tentang Oona Insurance, silakan kunjungi:",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                      "uri": "http://www.oona-insurance.com/"
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                          {
+                            "type": "underline"
+                          }
+                        ],
+                        "value": "www.oona-insurance.com",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "hyperlink"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "articleImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "1EThotHXfnOvkjB8LLehVW"
+            }
+          }
+        },
+        "author": {
+          "en-US": "Putra Rizki Pradana"
+        },
+        "createdAt": {
+          "en-US": "2024-06-12T00:00+07:00"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "5OsaG4gZ4Egv1OEUMzn5gQ",
+        "type": "Entry",
+        "createdAt": "2024-06-20T09:58:28.896Z",
+        "updatedAt": "2024-06-20T10:33:43.528Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2024-06-20T10:33:43.528Z",
+        "firstPublishedAt": "2024-06-20T10:00:31.140Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cpHeroSection"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/5OsaG4gZ4Egv1OEUMzn5gQ"
+      },
+      "fields": {
+        "header": {
+          "en-US": "Welcome to PutrarpDev"
+        },
+        "description": {
+          "en-US": "Putrarp Dev is a leading software application engineering company offering comprehensive IT solutions, including company profile creation, web app development, and mobile app creation. We are dedicated to delivering high-quality, innovative solutions to meet the unique needs of our clients."
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3mSzhUlNY91cL798ElLby7"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "H46eVgtfkEe7KL7woOFe2",
+        "type": "Entry",
+        "createdAt": "2024-06-20T10:03:56.407Z",
+        "updatedAt": "2024-06-20T10:04:38.821Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2024-06-20T10:04:38.821Z",
+        "firstPublishedAt": "2024-06-20T10:04:38.821Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cpCompanySection"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/H46eVgtfkEe7KL7woOFe2"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Company Overview"
+        },
+        "description": {
+          "en-US": "PutrarpDev is a leading software application engineering company renowned for offering a wide range of comprehensive IT solutions. Our services include company profile creation, web application development, and mobile app creation, all tailored to meet the diverse needs of our clients.\n\n      We are dedicated to delivering high-quality and innovative solutions. Our experienced professionals ensure effective and efficient results by leveraging the latest technologies and methodologies. Whether you need a compelling company profile, a dynamic web application, or a cutting-edge mobile app, Putrarp Dev has the expertise to bring your vision to life.\n\n      We pride ourselves on understanding each client's unique goals and challenges. This client-centric approach enables us to create customized solutions that drive success and foster long-term partnerships. Trust Putrarp Dev to be your reliable partner in navigating the evolving landscape of technology and achieving your business objectives with precision and innovation."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "ibRIYZH0Pwh7RGCMidXJ4",
+        "type": "Entry",
+        "createdAt": "2024-06-20T10:05:09.407Z",
+        "updatedAt": "2024-06-20T10:05:36.265Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-06-20T10:05:36.265Z",
+        "firstPublishedAt": "2024-06-20T10:05:36.265Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cpCompanySection"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/ibRIYZH0Pwh7RGCMidXJ4"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Our Mission"
+        },
+        "description": {
+          "en-US": "To provide top-notch IT solutions that drive business success and innovation. We deliver high-quality, reliable services, empowering clients to achieve their goals through cutting-edge technology and a client-centric approach."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "2YKaXY1sMzsoZYgFSQ8wSi",
+        "type": "Entry",
+        "createdAt": "2024-06-20T10:06:09.263Z",
+        "updatedAt": "2024-06-20T10:06:16.912Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-06-20T10:06:16.912Z",
+        "firstPublishedAt": "2024-06-20T10:06:16.912Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cpCompanySection"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/2YKaXY1sMzsoZYgFSQ8wSi"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Our History"
+        },
+        "description": {
+          "en-US": "Since our inception, PutrarpDev has continually achieved milestones fueled by our dedication to quality and customer satisfaction. We are proud of our journey and look forward to pioneering new milestones with you."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "7D1zSYTsxxk4oimagRg34X",
+        "type": "Entry",
+        "createdAt": "2024-06-20T10:06:24.670Z",
+        "updatedAt": "2024-06-20T10:06:37.136Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 2,
+        "publishedAt": "2024-06-20T10:06:37.136Z",
+        "firstPublishedAt": "2024-06-20T10:06:37.136Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cpCompanySection"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/7D1zSYTsxxk4oimagRg34X"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Our Culture"
+        },
+        "description": {
+          "en-US": "At PutrarpDev, we cultivate a culture of innovation, collaboration, and continuous learning. We believe in the power of teamwork and the collective expertise of our team members. Join us in shaping the future of technology with creativity and excellence."
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "CqAApsJnMwpd4qHh45kGA",
+        "type": "Entry",
+        "createdAt": "2024-06-20T10:10:44.156Z",
+        "updatedAt": "2024-06-20T10:14:30.916Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2024-06-20T10:14:30.916Z",
+        "firstPublishedAt": "2024-06-20T10:14:30.916Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cpServiceSection"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/CqAApsJnMwpd4qHh45kGA"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Web Development"
+        },
+        "price": {
+          "en-US": "1.0Mio"
+        },
+        "description": {
+          "en-US": "Transform your online presence with our comprehensive web development services. From custom designs to robust backend solutions, we create websites that are not only visually appealing but also highly functional. Our team uses the latest technologies including HTML5, CSS3, JavaScript, React, and Node.js to build responsive and SEO-optimized websites that provide an excellent user experience and meet your business goals. Our services include custom website design, responsive layouts, SEO optimization, CMS integration, e-commerce solutions, web hosting, and ongoing maintenance & support."
+        },
+        "features": {
+          "en-US": [
+            "Custom website design",
+            "Responsive layout",
+            "SEO optimization",
+            "E-commerce solutions",
+            "Web hosting",
+            "Maintenance & support"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "7BAZdoEXDBqFA4CmpdRwPS",
+        "type": "Entry",
+        "createdAt": "2024-06-20T10:15:18.227Z",
+        "updatedAt": "2024-06-20T10:16:22.639Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2024-06-20T10:16:22.639Z",
+        "firstPublishedAt": "2024-06-20T10:16:22.639Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cpServiceSection"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/7BAZdoEXDBqFA4CmpdRwPS"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Mobile App Development"
+        },
+        "price": {
+          "en-US": "1.5Mio"
+        },
+        "description": {
+          "en-US": "Stay ahead in the mobile-first world with our end-to-end mobile app development services. We build intuitive and engaging apps for both iOS and Android platforms, tailored to your business needs. Our expertise includes technologies such as Swift, Kotlin, React Native, and Flutter, ensuring that your app is fast, reliable, and provides a seamless user experience across all devices. Our services encompass customized app design, cross-platform development, API integration, app store deployment, performance optimization, user analytics, and continuous maintenance & support."
+        },
+        "features": {
+          "en-US": [
+            "Customized app design",
+            "Cross-platform development",
+            "API integration",
+            "App store deployment",
+            "Performance optimization",
+            "User analytics",
+            "Maintenance & support"
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "2NOrihH7Csp88a3Cd4r5HH",
+        "type": "Entry",
+        "createdAt": "2024-06-20T10:16:47.557Z",
+        "updatedAt": "2024-06-20T10:17:43.107Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2024-06-20T10:17:43.107Z",
+        "firstPublishedAt": "2024-06-20T10:17:43.107Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "cpServiceSection"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/entries/2NOrihH7Csp88a3Cd4r5HH"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Custom Development"
+        },
+        "price": {
+          "en-US": "Call Us"
+        },
+        "description": {
+          "en-US": "Our custom development services offer tailored solutions to meet your specific business requirements. From full-stack development to advanced security measures, we ensure that your software is robust and scalable. Leveraging technologies like Python, Java, Angular, Docker, and AWS, we deliver solutions that are both innovative and reliable, supporting your business growth and operational efficiency. Our services include tailored solutions, full-stack development, cloud integration, API development, advanced security, continuous integration & continuous deployment (CI/CD), and 24×7 support."
+        },
+        "features": {
+          "en-US": [
+            "Tailored solutions",
+            "Full-stack development",
+            "Cloud integration",
+            "API development",
+            "Advanced security",
+            "CI/CD",
+            "24×7 support"
+          ]
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "1EThotHXfnOvkjB8LLehVW",
+        "type": "Asset",
+        "createdAt": "2024-06-12T12:50:14.171Z",
+        "updatedAt": "2024-06-12T12:55:22.193Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2024-06-12T12:55:22.193Z",
+        "firstPublishedAt": "2024-06-12T12:55:22.193Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/assets/1EThotHXfnOvkjB8LLehVW"
+      },
+      "fields": {
+        "title": {
+          "en-US": "MyOONAid Launch"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/hq5jzaz3arfb/1EThotHXfnOvkjB8LLehVW/599f08517ffcb487b3c1dafa0f74c5ba/MyOONAid_Launch.jpg",
+            "details": {
+              "size": 2726020,
+              "image": {
+                "width": 3926,
+                "height": 2617
+              }
+            },
+            "fileName": "MyOONAid Launch.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "oJAN0TPOH4y4MEy0kS8RK",
+        "type": "Asset",
+        "createdAt": "2024-06-12T15:18:09.110Z",
+        "updatedAt": "2024-06-12T15:18:31.668Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2024-06-12T15:18:31.668Z",
+        "firstPublishedAt": "2024-06-12T15:18:31.668Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/assets/oJAN0TPOH4y4MEy0kS8RK"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Vincent C. Soegianto"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/hq5jzaz3arfb/oJAN0TPOH4y4MEy0kS8RK/72235530079c44a79ea3d2dceff25275/Vincent-c-soegianto-CEO-oona-insurance-indonesia.png",
+            "details": {
+              "size": 449179,
+              "image": {
+                "width": 893,
+                "height": 871
+              }
+            },
+            "fileName": "Vincent-c-soegianto-CEO-oona-insurance-indonesia.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "id": "3mSzhUlNY91cL798ElLby7",
+        "type": "Asset",
+        "createdAt": "2024-06-20T10:33:16.147Z",
+        "updatedAt": "2024-06-20T10:33:38.775Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-20T10:33:38.775Z",
+        "firstPublishedAt": "2024-06-20T10:33:38.775Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/hq5jzaz3arfb/environments/master/assets/3mSzhUlNY91cL798ElLby7"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Hero Image"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/hq5jzaz3arfb/3mSzhUlNY91cL798ElLby7/88567451a9fcfa06da964304f5eed7fa/happy-full-body-boy.webp",
+            "details": {
+              "size": 27884,
+              "image": {
+                "width": 768,
+                "height": 768
+              }
+            },
+            "fileName": "happy-full-body-boy.webp",
+            "contentType": "image/webp"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "6pNrDKL9eBzmieO8l5ZHM3",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "6f9fcb8f-8c58-445b-9e5e-8d6d04116509"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "createdAt": "2024-06-12T12:25:48Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedAt": "2024-06-12T12:25:48Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "6q7JlUf2igbINqSqP3mYez",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "hq5jzaz3arfb"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "createdAt": "2024-06-12T12:25:48Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "2F7UdVvNTttlZpOTlFHjUL"
+          }
+        },
+        "updatedAt": "2024-06-12T12:25:48Z"
+      }
+    }
+  ]
+}

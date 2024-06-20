@@ -11,8 +11,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 0, 0, 15;
+    --background-end-rgb: 0, 0, 15;
   }
 }
 
@@ -21,6 +21,14 @@ body {
   background: linear-gradient(to bottom,
       transparent,
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background-image: url('../../public/bg1.webp'), url('../../public/bg2.webp'), url('../../public/bg3.webp'), url('../../public/bg4.webp')
+  ;
+  background-position: right -20rem top -30rem, left -13rem top 30rem, right -20rem top 70rem, left -18rem bottom -50rem
+  ;
+  background-size: 100% 50%, 75% 50%, 100% 50%, 100% 50%
+  ;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat
+  ;
 }
 
 @layer utilities {

@@ -1,38 +1,36 @@
-import Carousel from "./carousel";
+const testimonials: Testimonial[] = [
+  {
+    id: 1,
+    quote: 'This design library offers predesigned components and pages, ideal for your next app. It provides a comprehensive solution for Web Development needs.',
+    authorName: 'Bonnie Green',
+    authorTitle: 'CTO at Flowbite',
+    authorImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png',
+  },
+  {
+    id: 2,
+    quote: 'I\'m really happy with this product. The design is beautiful and the code is very clean, making it a pleasure to work with for Mobile App Development purposes.',
+    authorName: 'John Doe',
+    authorTitle: 'CEO at Example Corp',
+    authorImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png',
+  },
+  {
+    id: 3,
+    quote: 'The custom development we received exceeded our expectations and perfectly met our requirements. It\'s a wonderful service that meets our unique needs.',
+    authorName: 'Jane Smith',
+    authorTitle: 'Product Manager at Tech Solutions',
+    authorImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png',
+  },
+];
 
 export default function TestimonialSection() {
-  const testimonials = [
-    {
-      id: 1,
-      quote: 'Flowbite is just awesome. It contains tons of predesigned components and pages starting from login screen to complex dashboard. Perfect choice for your next SaaS application.',
-      authorName: 'Bonnie Green',
-      authorTitle: 'CTO at Flowbite',
-      authorImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png',
-    },
-    {
-      id: 2,
-      quote: 'Really happy with this product. The design is beautiful and the code is very clean. It\'s a pleasure to work with!',
-      authorName: 'John Doe',
-      authorTitle: 'CEO at Example Corp',
-      authorImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png',
-    },
-    {
-      id: 3,
-      quote: 'A wonderful product with amazing features. It has everything you need to get your project started quickly and efficiently.',
-      authorName: 'Jane Smith',
-      authorTitle: 'Product Manager at Tech Solutions',
-      authorImage: 'https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png',
-    },
-  ];
-
   return (
-    <div className="md:max-h-screen">
+    <div className="md:max-h-96">
       <div>
         <p className="md:text-7xl pl-10 py-5">What Customer Said</p>
       </div>
-      <div className="grid md:grid-cols-3 md:grid-rows-2 grid-flow-row md:grid-flow-row md:gap-0 gap-5 md:min-h-screen justify-items-center">
-        {testimonials.map(testimony => (
-          <div className="md:content-start md:pl-10 px-10 md:min-w-full">
+      <div className="grid md:grid-cols-3 md:grid-rows grid-flow-row md:grid-flow-row md:gap-0 gap-5 md:min-h-96 justify-items-center">
+        {testimonials.map((testimony, index) => (
+          <div key={index} className="md:content-start md:pl-10 px-10 md:min-w-full">
             <figure className="max-w-screen-md">
               <div className="flex items-center mb-4 text-yellow-300">
                 <svg className="w-5 h-5 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 22 20">
