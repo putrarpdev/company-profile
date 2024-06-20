@@ -1,6 +1,6 @@
 import { TypeCpServiceSectionFields } from "@/types/contentful";
 import { client } from "@/utils/contentful";
-import TeamView from "../global/team";
+import TestimonialSection from "../global/testimony/testimonialSection";
 
 export async function fetchServices() {
   try {
@@ -48,11 +48,15 @@ export default async function ServicesView() {
         <p className="md:text-7xl pl-10 py-5">Our Services</p>
       </div>
       <div className="grid md:grid-rows grid-flow-row md:grid-flow-row gap-5">
-        {servicesData.map((service, index) => (
+        {servicesData?.map((service: any, index: number) => (
           <div key={index} className="md:content-start md:pl-10 px-10 md:min-w-full md:max-h-fit">
             <a href="#" className="block p-6 bg-gray-800 bg-opacity-40 rounded-md shadow-lg shadow-black md:min-h-fit md:min-w-96 transition ease-in-out hover:bg-opacity-65 duration-1000">
               <h5 className="mb-2 md:text-4xl font-bold tracking-tight md:text-white ">
                 {service.fields.title}
+              </h5><h5 className="mb-2 md:text-4xl font-bold tracking-tight md:text-white ">
+                <span className="text-3xl font-semibold">Rp.</span>
+                <span className="text-5xl font-extrabold tracking-tight">{service.fields.price}</span>
+                <span className="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/mandays</span>
               </h5>
               <p className="font-normal md:text-xl dark:md:text-gray-400">
                 {service.fields.description}
@@ -61,7 +65,7 @@ export default async function ServicesView() {
           </div>
         ))}
 
-        <TeamView />
+        <TestimonialSection />
       </div>
     </div>
   );

@@ -6,13 +6,13 @@ export default function Footer() {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
           <li>
-            <a href="#" className="hover:underline me-4 md:me-6">About Us</a>
+            <a href="/aboutus" className="hover:underline me-4 md:me-6">About Us</a>
           </li>
           <li>
-            <a href="#" className="hover:underline me-4 md:me-6">Services</a>
+            <a href="/services" className="hover:underline me-4 md:me-6">Services</a>
           </li>
           <li>
-            <a href="#" className="hover:underline me-4 md:me-6">Our Team</a>
+            <a href="/ourteam" className="hover:underline me-4 md:me-6">Our Team</a>
           </li>
         </ul>
       </div>
