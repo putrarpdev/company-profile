@@ -26,7 +26,7 @@ export default async function CompanyOverviewSection() {
         <p className="md:text-7xl pl-10 py-5">Our Company</p>
       </div>
       <div className="grid md:grid-cols-2 md:grid-rows-2 grid-flow-row md:grid-flow-row md:gap-0 gap-5 md:min-h-screen justify-items-center">
-        {companyData.map((company, index) => (
+        {companyData.map((company : any, index) => (
           <div key={index} className="md:content-start md:pl-10 px-10">
             <a href="#" className="block p-6 bg-gray-800 bg-opacity-40 rounded-md shadow-lg shadow-black md:min-h-[36rem] md:min-w-96 transition ease-in-out hover:bg-opacity-65 duration-1000">
               <h5 className="mb-2 md:text-4xl font-bold tracking-tight md:text-gray-900 dark:md:text-white">

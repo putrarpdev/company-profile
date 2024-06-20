@@ -33,7 +33,7 @@ export default async function TeamView() {
           Our Team
         </h5>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 justify-items-center">
-          {teamMembers.map((member, index) => (
+          {teamMembers?.map((member, index) => (
             <div key={index} className="w-full max-w-sm bg-gray-800 bg-opacity-0 rounded-md shadow-lg shadow-black  ">
               <div className="flex flex-col items-center pb-10 px-4 pt-4">
                 <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={member.picture.large} alt="Bonnie image" />

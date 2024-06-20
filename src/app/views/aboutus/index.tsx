@@ -46,7 +46,7 @@ export async function fetchTeamMembers() {
 };
 
 export default async function AboutUsView() {
-  const companyData = await fetchCompany();
+  const companyData: Entry<TypeCpCompanySectionFields>[] = await fetchCompany();
 
   return (
     <div className="md:max-h-fit pb-10">
@@ -54,7 +54,7 @@ export default async function AboutUsView() {
         <p className="md:text-7xl pl-10 py-5">Our Company</p>
       </div>
       <div className="grid md:grid-rows grid-flow-row md:grid-flow-row gap-5">
-        {companyData.map((company, index) => (
+        {companyData.map((company : any, index) => (
           <div key={index} className="md:content-start md:pl-10 px-10 md:min-w-full md:max-h-fit">
             <a href="#" className="block p-6 bg-gray-800 bg-opacity-40 rounded-md shadow-lg shadow-black md:min-h-fit md:min-w-96 transition ease-in-out hover:bg-opacity-65 duration-1000">
               <h5 className="mb-2 md:text-4xl font-bold tracking-tight md:text-white ">

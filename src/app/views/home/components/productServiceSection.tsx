@@ -20,7 +20,7 @@ export default async function ProductServiceSection() {
         <p className="md:text-7xl pl-10 py-5">Our Services</p>
       </div>
       <div className="grid md:grid-cols-3 md:grid-rows-2 grid-flow-row md:grid-flow-row md:gap-0 gap-5 md:min-h-screen justify-items-center">
-        {servicesData?.map((service, index) => (
+        {servicesData?.map((service: any, index) => (
           <div key={index} className="md:content-start md:pl-10 px-10 md:min-w-full">
             <div className="p-8 bg-gray-800 bg-opacity-40 rounded-md shadow-lg shadow-black transition ease-in-out hover:-translate-y-1 hover:scale-105 hover:bg-opacity-65 duration-1000">
               <h5 className="mb-4 text-xl font-medium text-gray-500 dark:text-gray-400">{service.fields.title}</h5>
@@ -30,7 +30,7 @@ export default async function ProductServiceSection() {
                 <span className="ms-1 text-xl font-normal text-gray-500 dark:text-gray-400">/mandays</span>
               </div>
               <ul role="list" className="space-y-5 my-7">
-                {service.fields.features.map((feature, index) => (
+                {service.fields.features.map((feature: any, index: number) => (
                   <li key={index} className="flex">
                     <svg className="flex-shrink-0 w-4 h-4 text-blue-700 dark:text-blue-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />

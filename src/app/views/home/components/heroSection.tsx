@@ -16,6 +16,7 @@ export async function fetchHero() {
 
 export default async function HeroSection() {
   const heroData = await fetchHero();
+  const { fields }: { fields: { file: { url: string } } } = heroData ? heroData[0].fields.image : { fields: { file: { url: "" } } };
   return (
     (heroData && <div className="min-h-screen md:pt-0 pt-10">
       <div className="grid md:grid-cols-3 grid-flow-row md:grid-flow-col gap-4 min-h-screen justify-items-center">
@@ -28,7 +29,7 @@ export default async function HeroSection() {
             width={1000}
             height={1000}
             alt="Image"
-            src={`https:${heroData[0].fields.image.fields.file.url}`}
+            src={`https:${fields.file.url}`}
             priority={true}
           />
         </div>
